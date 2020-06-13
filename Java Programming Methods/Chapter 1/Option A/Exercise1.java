@@ -1,5 +1,3 @@
-package optionA;
-
 import java.util.Scanner;
 
 public class Exercise1 {

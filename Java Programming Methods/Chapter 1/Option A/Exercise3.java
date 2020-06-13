@@ -1,5 +1,3 @@
-package optionA;
-
 import java.util.Scanner;
 
 public class Exercise3 {
@@ -13,6 +11,8 @@ public class Exercise3 {
 			char carriageReturn = sc.nextBoolean()?(char)13:(char)32;
 			for(int i=0; i<randomCount; i++)
 				System.out.print(String.format("%.3f",Math.random())+carriageReturn);
+
+			System.out.println();
 		} catch(Exception e) {
 			System.out.println("Invalid input: "+e);
 		} finally {

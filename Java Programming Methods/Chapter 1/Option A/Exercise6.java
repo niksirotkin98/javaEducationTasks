@@ -1,5 +1,3 @@
-package optionA;
-
 import java.text.*;
 import java.util.*;
 
